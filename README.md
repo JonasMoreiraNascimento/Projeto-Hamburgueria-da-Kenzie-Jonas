@@ -1,1 +1,1 @@
-https://hamburgueria-da-kenzie-jonas-a41e.vercel.app/
+https://projeto-hamburgueria-da-kenzie-jonas.vercel.app/
