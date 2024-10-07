@@ -1,0 +1,66 @@
+.header
+    height: 5rem
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+.header div
+    display: flex
+    justify-content: space-between
+    width: 100%
+    gap: 1.25rem
+
+    img
+        margin: auto 0
+        width: 150px
+        height: 22.852px
+
+.search
+    border: none
+    border-radius: 0.5rem
+    height: 2.5rem
+    padding: 0 1rem
+    background-color: var(--color-primary)
+    color: white
+    cursor: pointer
+
+    &:hover
+        filter: brightness(1.2)
+
+.cart
+    display: flex
+    background: transparent
+    border: none
+    align-items: center
+    position: relative
+    cursor: pointer
+
+    &:hover
+        filter: brightness(1.1)
+
+    span
+        background: var(--color-primary)
+        padding: 0.1rem 0.3rem
+        border-radius: 0.4rem
+        position: absolute
+        top: 0.0625rem
+        left: 1.25rem
+        color: white
+        font-size: 1rem
+        font-weight: bold
+        font-family: var(--font-primary)
+
+.color
+    color: var(--grey-300)
+
+@media (max-width: 425px)
+    .header
+        width: 95% !important
+        height: 9.5rem
+
+        .header__container
+            display: flex
+            flex-direction: column
+
+        .cart span
+            top: -0.8rem

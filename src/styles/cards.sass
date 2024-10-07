@@ -1,0 +1,30 @@
+.card__container
+    border: 2px solid var(--grey-100)
+    width: 100%
+    max-width: 20rem
+    display: flex
+    flex-direction: column
+    border-radius: 4px
+
+    img
+        width: 100%
+        max-width: 10.125rem
+        margin: 0 auto
+
+    div
+        display: flex
+        flex-direction: column
+        gap: 1.4rem
+        background: white
+        padding: 1.6rem
+
+    button
+        width: 8.125rem
+
+    &:hover
+        border: 2px solid var(--color-primary)
+        transition: 0.3s
+
+@media (max-width: 425px)
+    .card__container
+        flex-shrink: 0

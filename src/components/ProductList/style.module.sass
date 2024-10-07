@@ -1,0 +1,11 @@
+.products_container
+    display: flex
+    flex-wrap: wrap
+    gap: 1.625rem
+    margin-top: 2rem
+
+@media (max-width: 425px)
+    .products_container
+        flex-wrap: nowrap
+        overflow-x: scroll
+        max-width: 100%
